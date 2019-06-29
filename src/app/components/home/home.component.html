@@ -1,4 +1,4 @@
-<section>
+<section class="mb-300">
   <!-- Heading -->
   <header class="header">
     <div class="mt-4">
@@ -17,19 +17,26 @@
   <div class="row">
     <div class="col-12">
       <p>Hello, I am seeking a position in web or software development.</p>
-      <h4>Technical Proficiencies</h4>
+      <h4 class="text-center">Technical Proficiencies</h4>
     </div>
-    <div class="col-md-2">
-      <img
-        class="fit-img"
-        src="../../../assets/images/java_logo.jpg"
-        alt="Java Logo"
-      />
-    </div>
-    <div class="col-12">
-      <hr />
+    <div class="col-md-2 mb-3" *ngFor="let logo of logos">
+      <img class="fit-img" src="{{ logo }}" />
     </div>
   </div>
+  <hr />
+</section>
 
-  <!-- Show projects -->
+<!-- Show projects -->
+<section>
+  <header>
+    <h4>Personal Projects</h4>
+  </header>
+  <div class="row">
+    <div class="col-md-2">
+      <img src="" />
+    </div>
+    <div class="col-md-10">
+      <!-- Content -->
+    </div>
+  </div>
 </section>
