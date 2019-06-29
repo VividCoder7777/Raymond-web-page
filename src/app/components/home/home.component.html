@@ -19,7 +19,7 @@
       <p>Hello, I am seeking a position in web or software development.</p>
       <h4 class="text-center">Technical Proficiencies</h4>
     </div>
-    <div class="col-md-2 mb-3" *ngFor="let logo of logos">
+    <div class="col-md-2 col-4 mb-3" *ngFor="let logo of logos">
       <img class="fit-img" src="{{ logo }}" />
     </div>
   </div>
@@ -27,16 +27,39 @@
 </section>
 
 <!-- Show projects -->
-<section>
-  <header>
-    <h4>Personal Projects</h4>
+<section class="pb-4">
+  <header class="mb-4">
+    <h4 class="text-center">Personal Projects</h4>
   </header>
-  <div class="row">
-    <div class="col-md-2">
-      <img src="" />
+  <div class="row pt-4">
+    <div class="col-md-6 ">
+      <img
+        class="fit-img shadow"
+        src="../../../assets/images/walmart_project.png"
+      />
     </div>
-    <div class="col-md-10">
+    <div class="col-md-6">
       <!-- Content -->
+      <h4>Walmart Product Search</h4>
+      <div>
+        <ul>
+          <li>
+            Application lets the user search for products using the Walmart API.
+          </li>
+          <li>
+            Is a progressive web application which means it has offline
+            capabilities.
+          </li>
+          <li>Created using React and deployed onto Heroku.</li>
+        </ul>
+        <ul>
+          <li><h5>Links</h5></li>
+          <li><a href="https://walmartsearch.herokuapp.com/">Website</a></li>
+          <li>
+            <a href="https://github.com/VividCoder7777/WalmartSearch">Github</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
