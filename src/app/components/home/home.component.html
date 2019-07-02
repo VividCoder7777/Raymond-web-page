@@ -1,4 +1,4 @@
-<section class="mb-4">
+<section class="mb-4" id="top">
   <!-- Heading -->
   <header class="header">
     <div class="mt-4">
@@ -9,15 +9,31 @@
         alt="User's Face"
       />
     </div>
-    <h3 class="my-4">Hello, my name is Raymond!</h3>
-    <h5>Seneca Graduate in Computer Programming and Analysis</h5>
+    <h3 class="my-5">Hello there, my name is Raymond!</h3>
   </header>
 
   <!-- Introduction -->
-  <div class="row">
-    <div class="col-12">
-      <p>Hello, I am seeking a position in web or software development.</p>
-      <h4 class="text-center">Technical Proficiencies</h4>
+  <div class="row justify-content-center">
+    <div class="col-12 text-center">
+      <p>
+        <b>
+          I am Seneca graduate with working experience and am now seeking a
+          position in web or software development.
+        </b>
+      </p>
+      <p>
+        I know a plethora of programming languages and can work on the front or
+        back-end.
+      </p>
+      <p>
+        More Importantly, I have the drive to learn and discipline to do what's
+        needed to complete my tasks.
+      </p>
+      <p class="mb-5">
+        Below you will find my technical proficiencies and personal projects
+        that I've worked on outsite of class
+      </p>
+      <h4 class="text-center mb-4 pt-2">Technical Proficiencies</h4>
     </div>
     <div class="col-md-2 col-4 mb-3" *ngFor="let logo of logos">
       <img class="fit-img" src="{{ logo }}" />
@@ -27,7 +43,7 @@
 </section>
 
 <!-- Show projects -->
-<section class="pb-4">
+<section class="pb-4" id="project">
   <header class="mb-4">
     <h4 class="text-center">Personal Projects</h4>
   </header>
@@ -142,49 +158,14 @@
   </div>
 </section>
 
-<section class="pb-4">
-  <div class="row pt-4">
-    <div class="col-md-6 ">
-      <img
-        class="fit-img shadow mh-260"
-        src="../../../assets/images/task.png"
-      />
-    </div>
-    <div class="col-md-6">
-      <!-- Content -->
-      <h4 class="text-center mb-4 mt-4 mt-md-0">Daily Task Creator</h4>
-      <div>
-        <ul>
-          <li>
-            Application built with React, and Node.js.
-          </li>
-          <li>
-            Lets user create their daily list of tasks on a specific date.
-          </li>
-          <li>
-            Users are authneticated using OAuth.
-          </li>
-        </ul>
-        <div class="row justify-content-center">
-          <div class="d-flex flex-row col-4 col-md-4">
-            <p class="p-2">
-              <a href="https://tasklist7777.herokuapp.com/">Website</a>
-            </p>
-            <p class="p-2">
-              <a href="https://github.com/VividCoder7777/Task">Github</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <hr />
 
 <!-- This is the contact section -->
 
-<section class="my-5 mh-500 d-flex align-items-center justify-content-center">
+<section
+  class="my-5 mh-500 d-flex align-items-center justify-content-center"
+  id="contact"
+>
   <div class="row ">
     <div class=" border p-5">
       <header>
@@ -194,8 +175,8 @@
       </header>
       <div class="row">
         <div class="col-12 text-center">
-          <p>Phone: 647-863-4130</p>
-          <p>Gmail: raymond.yu171@gmail.com</p>
+          <p>Email: <b>raymond.yu171@gmail.com</b></p>
+          <p>Phone: <b>647-863-4130</b></p>
           <p>
             <a href="https://linkedin.com/in/raymond-yu-a5839013b">LinkedIn</a>
           </p>
