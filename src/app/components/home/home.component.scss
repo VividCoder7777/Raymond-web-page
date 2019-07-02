@@ -32,6 +32,17 @@
   transform: skewY(-5deg);
 }
 
-ul {
-  list-style: none;
+section {
+  line-height: 1.5;
+}
+
+section ul {
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+.mh-500 {
+  min-height: 500px;
 }
